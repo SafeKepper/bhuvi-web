@@ -35,8 +35,7 @@ const project = {
     {
       name: "content",
       title: "Content",
-      type: "blockContent",
-      of: [{ type: "block" }]
+      type: "blockContent"
     }
   ]
 }
