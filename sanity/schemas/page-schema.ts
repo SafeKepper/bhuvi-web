@@ -17,7 +17,7 @@ const page = {
     {
       name: "content",
       title: "Content",
-      type: "array",
+      type: "blockContent",
       of: [
         { type: "block" }
       ]
