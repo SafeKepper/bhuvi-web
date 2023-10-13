@@ -7,7 +7,7 @@ export default function MainPage() {
         <main>
             <section className="flex items-center justify-center mt-12 text-white">
                 <div>
-                    <h2 className='italic mt-6 mb-6 font-semibold'>I'm a aspiring Bioinformatician <br />and a Biotechnologist with<br />adept knowledge in <br />Computer science.</h2>
+                    <h2 className='italic mt-6 mb-6 font-semibold'>I&apos;m a aspiring Bioinformatician <br />and a Biotechnologist with<br />adept knowledge in <br />Computer science.</h2>
 
                     <h3 className='mt-6 mb-6'>@nesherwyn</h3>
 
