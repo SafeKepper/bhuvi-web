@@ -6,10 +6,11 @@ import srmlogo from '../../../public/image/srm.png'
 import kvlogo from '../../../public/image/kv.png'
 import nycilogo from '../../../public/image/NYCI.png'
 import Link from "next/link"
+import Home from '../'
 export default function Skills() {
     return (
         <main>
-            <Link className="text-white font-semibold" href="./">Back</Link>
+            <Link className="text-white font-semibold" href="/Home">Back</Link>
             <div className='flex flex-wrap items-center justify-center mt-12 mb-12'>
                 <div className="w-5/6">
                 <h1 className="text-white">Work Experience</h1>
