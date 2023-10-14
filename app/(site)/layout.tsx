@@ -1,6 +1,5 @@
 import '../globals.css'
 import Link from "next/link"
-import mainText from '../components/mainText';
 
 export const metadata = {
   title: 'Buvi',
