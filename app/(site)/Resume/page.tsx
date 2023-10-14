@@ -6,7 +6,7 @@ import srmlogo from '../../../public/image/srm.png'
 import kvlogo from '../../../public/image/kv.png'
 import nycilogo from '../../../public/image/NYCI.png'
 import Link from "next/link"
-import Home from '../'
+
 export default function Skills() {
     return (
         <main>
