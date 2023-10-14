@@ -15,7 +15,6 @@ type Props = {
 }
 
 const builder = imageUrlBuilder({
-  baseUrl: 'https://cdn.sanity.io/',
   projectId: config.projectId,
   dataset: config.dataset,
 });
@@ -28,6 +27,8 @@ const SampleImageComponent = ({ value }) => {
       src={urlFor(value).auto('format').fit('max').width(720).toString()}
       alt={value.alt || ' '}
       loading="lazy"
+      width={800}
+      height={100}
     />
   )
 }
@@ -46,7 +47,6 @@ const components = {
 export default async function Project({ params }: Props) {
   const slug = params.project;
   const project = await getProject(slug);
-  console.log(project._id)
   return <div>
     <Link href={'./'} className="text-white font-bold text-xl mb-10" >Back</Link>
     <header className="flex items-center justify-between">
