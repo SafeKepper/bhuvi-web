@@ -24,7 +24,7 @@ export default function MainPage() {
                     <Link className="font-semibold text-xl bg-white text-black p-2 drop-shadow-md rounded-lg hover:bg-zinc-700" href={'./Resume'}>Resume</Link>
 
                 </div>
-                <div className="mt-2 mb-2 mr-6 ml-10 w-[250px] h-[260px]">
+                <div className="mt-2 mb-2 mr-6 ml-10 w-[250px] h-[300px]">
                     <Image className='rounded-md shadow-2xl'
                         src={profilePic}
                         alt="O genki desu ka?"
