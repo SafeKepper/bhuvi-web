@@ -5,6 +5,10 @@ import Link from "next/link";
 import config from "../../../../sanity/config/client-config";
 import imageUrlBuilder from '@sanity/image-url';
 import Refractor from "react-refractor";
+// Load any languages you want to use from `refractor`
+import python from "refractor/lang/python";
+
+Refractor.registerLanguage(python);
 
 type Props = {
   params: { project: string }
