@@ -6,13 +6,14 @@ import MainPage from "../components/mainpage";
 export default async function Home() {
   const projects = await getProjects();
 
-  return (
+  
+  return ( 
     <div>
       <h1 className="text-7xl font-extrabold text-white">Hello I&apos;m
         <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent"> Bhuvi!</span>
       </h1>
-      <p className="mt-3 text-xl text-gray-600">Konichiwa everyone!</p>
-      <MainPage/>
+      <p className="mt-3 text-xl text-gray-600 drop-shadow-xl">Konichiwa everyone!</p>
+      <MainPage />
       <h2 className="mt-44 font-bold text-white text-3xl">My Projects</h2>
 
       <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">{projects.map((project) => (
@@ -23,7 +24,7 @@ export default async function Home() {
               alt={project.name}
               width={750}
               height={300}
-              className="object-cover rounded-lg border border-gray-500"
+              className="object-cover rounded-lg border border-gray-500 drop-shadow-2xl"
             />
           )}
           <div className="mt-2 font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
