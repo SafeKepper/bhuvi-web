@@ -22,7 +22,7 @@ export default function MainPage() {
 
           <div className=" mt-0 ml-0 flex">
             <a href="https://www.instagram.com/nesherwyn/" className="p-3">
-            <Image width="49" height="48" src="https://img.icons8.com/doodle/48/github--v1.png" alt="github--v1"/>
+            <Image width={48} height={48} src="https://img.icons8.com/doodle/48/github--v1.png" alt="github--v1"/>
             </a>
             <a href="https://www.linkedin.com/in/bhuvaneshwaranr04/" className="p-4">
             <Image width="40" height="48" src="https://img.icons8.com/doodle/48/linkedin--v2.png" alt="linkedin--v2"/>
@@ -34,9 +34,6 @@ export default function MainPage() {
                 <Image width="48" height="48" src="https://img.icons8.com/doodle/48/new-post.png" alt="new-post"/>
                 {/* <ContactForm /> */}
             </a>
-            <Link href={ContactForm} className="text-cyan-400 flex items-center gap-5 text-lg font-bold">
-            RESUME
-          </Link>
         </div>
           <div className="mt-10"></div>
           <div>
