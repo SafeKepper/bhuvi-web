@@ -14,7 +14,7 @@ export default function MainPage() {
             I&apos;m a aspiring <br /> Data Scientist <br />
             and a tech enthusiast.
             <br /> with ever growing zeal <br />
-            for computer Science.
+            for Computer Science.
           </h2>
 
           <h4 className="mt-10 mb-1 text-black italic antialiased">
