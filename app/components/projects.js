@@ -22,7 +22,7 @@ export default function Projects() {
                 <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
                 </div>
                 <p className="text-black">
-                    Understanding the vast data of drug interaction is a challenging fleet. It is a daunting but, a rewarding task of identifying potentioal drug cadidate for prevalant diseases. 
+                    Understanding the vast data of drug interaction is a challenging fleet. It is a daunting but, a rewarding task of identifying potentioal drug candidate for prevalant diseases. 
                     
                 </p>
                 <Link className="text-black mt-4 font-mono" target="_blank" href={"https://github.com/SafeKepper/Drug-discovery-/blob/main/Data_computational_drug_Bioactivity_data.ipynb"}>
