@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import profilePic from "../../public/image/profile.jpeg";
 import Link from "next/link";
-import ContactForm from "./ContactForm";
+
 
 export default function MainPage() {
     const mailtoHref = "mailto:bhuvanqueries@gmail.com?subject=Enquire&body=Description";
@@ -33,17 +33,12 @@ export default function MainPage() {
                 className="text-cyan-400 flex items-center gap-5 text-lg font-bold p-2"
               >
                 <Image width="48" height="48" src="https://img.icons8.com/doodle/48/new-post.png" alt="new-post"/>
-                {/* <ContactForm /> */}
             </a>
         </div>
-          <div className="mt-10"></div>
-          <div>
-            <h3>Projects</h3>
-          </div>
         </div>
         <div className="mt-2 mb-2 mr-6 ml-10 w-[450px] h-[450px]">
           <Image
-            className="rounded-md shadow-2xl"
+            className="rounded-md shadow-2xl pointer-events-none"
             src={profilePic}
             alt="O genki desu ka?"
             width={520}
