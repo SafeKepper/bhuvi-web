@@ -25,7 +25,7 @@ export default function Projects() {
                     Understanding the vast data of drug interaction is a challenging fleet. It is a daunting but, a rewarding task of identifying potentioal drug candidate for prevalant diseases. 
                     
                 </p>
-                <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.datacamp.com/workspace/w/135ff4e4-5637-4ab1-b2d7-caf21e4683b2"}>
+                <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.datacamp.com/workspace/w/135ff4e4-5637-4ab1-b2d7-caf21e4683b2/edit/Data_computational_drug_Bioactivity_data.ipynb"}>
                     Visit the Code..
                 </Link>
 
