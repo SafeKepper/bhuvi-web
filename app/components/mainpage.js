@@ -35,6 +35,8 @@ export default function MainPage() {
                 <Image width="48" height="48" src="https://img.icons8.com/doodle/48/new-post.png" alt="new-post"/>
             </a>
         </div>
+        <div>
+        </div>
         </div>
         <div className="mt-2 mb-2 mr-6 ml-10 w-[450px] h-[450px]">
           <Image

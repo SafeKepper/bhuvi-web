@@ -9,7 +9,7 @@ export default function Projects() {
     
   return (
     <main>
-        <div>
+        <div className="mt-10">
             <h2 className="text-black font-semibold antialiased italic">Projects</h2>
         </div>
       <section className="flex flex-col items-start justify-left mt-12 text-white">

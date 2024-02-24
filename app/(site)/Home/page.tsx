@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MainPage from "../../components/mainpage";
 import Projects from "../../components/projects";
-
+import SKills from "../../components/skills"
 export default async function Home() {
   return ( 
     <div>
@@ -11,6 +11,7 @@ export default async function Home() {
       </h1>
       <p className="mt-3 text-xl text-gray-600 drop-shadow-xl">I&apos;m proud of ya! you doing great!</p>
       <MainPage />
+      <SKills/>
       <Projects />
     </div>
   )
