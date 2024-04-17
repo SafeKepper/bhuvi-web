@@ -17,7 +17,7 @@ export default function Projects() {
         <div>
             <div className="w-5/6 h-auto bg-white mb-2 p-2">
                 <h4 className="text-black font-semibold italic mb-2">
-                    Exploratory Data analysis and Implenting Regression models on Biological Data
+                Random Forest Regressor(ensemble) - Machine Learning Model From Scratch
                 </h4>
                 <div className="flex flex-row">
                 <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
