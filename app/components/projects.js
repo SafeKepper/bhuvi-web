@@ -3,6 +3,7 @@ import Image from "next/image";
 import profilePic from "../../public/image/profile.jpeg";
 import Link from "next/link";
 import pIC50 from "../../public/image/graph_pIC50.png"
+import report from "../../public/image/report.png"
 // import { TECollapse, TERipple } from "tw-elements-react";
 
 export default function Projects() {
@@ -37,7 +38,7 @@ export default function Projects() {
                     HR Analytics - Report on Employee Attrition
                 </h4>
                 <div className="flex flex-row">
-                <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
+                <Image className="m-3" width="200" height="200" src={report} alt="linkedin--v2"/>
                 </div>
                 <p className="text-black">
                 •Cleaned 6100+ data points.<br/>
