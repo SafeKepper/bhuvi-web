@@ -41,12 +41,12 @@ export default function Projects() {
                 <Image className="m-3" width="200" height="200" src={report} alt="linkedin--v2"/>
                 </div>
                 <p className="text-black">
-                •Cleaned 6100+ data points.
-                •Performed data Modelung, Constructed Snowflake Schema.
-                •Created 15+ Measures, EDA was carried out.
-                •Data Visualization revealed Key insights.
-                •Further analysed for Attrition through various channels.
-                •Built report and deployed on power BI service.
+                •Cleaned 6100+ data points. <br/>
+                •Performed data Modeling, constructed snowflake Schema.  <br/>
+                •Created 15+ Measures, EDA was carried out.  <br/>
+                •Revealed Key insights using data visualization .   <br/>
+                •Analysed for Attrition through various channels.   <br/>
+                •Built report and deployed on power BI service.  <br/>
                 </p>
                 <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.powerbi.com/view?r=eyJrIjoiZWJjNDJjYWYtZjVmZS00Y2IwLWEwNDgtY2Q1NmM2Yjk1ZDM5IiwidCI6ImFkNGRkMzNkLWQyNDctNGQ5My1hOGIyLWE5ZDk0OWEwMThjZSJ9&pageName=ReportSection"}>
                     Visit the report..
