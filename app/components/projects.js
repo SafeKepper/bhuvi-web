@@ -31,16 +31,28 @@ export default function Projects() {
 
             </div>
         </div>
-        {/* <div>
-            <div className="w-96 h-20 bg-black mb-2 p-2">
+        <div>
+            <div className="w-5/6 h-auto bg-white mb-2 p-2">
+                <h4 className="text-black font-semibold italic mb-2">
+                    HR Analytics - Report on Employee Attrition
+                </h4>
+                <div className="flex flex-row">
+                <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
+                </div>
+                <p className="text-black">
+                •Cleaned 6100+ data points.<br/>
+                •Performed data Modelung, Constructed Snowflake Schema.<br/>
+                •Created 15+ Measures, EDA was carried out.<br/>
+                •Data Visualization revealed Key insights.<br/>
+                •Further analysed for Attrition through various channels.<br/>
+                •Built report and deployed on power BI service.<br/>
+                </p>
+                <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.powerbi.com/view?r=eyJrIjoiZWJjNDJjYWYtZjVmZS00Y2IwLWEwNDgtY2Q1NmM2Yjk1ZDM5IiwidCI6ImFkNGRkMzNkLWQyNDctNGQ5My1hOGIyLWE5ZDk0OWEwMThjZSJ9&pageName=ReportSection"}>
+                    Visit the report..
+                </Link>
 
             </div>
         </div>
-        <div>
-            <div className="w-96 h-20 bg-black mb-2 p-2">
-
-            </div>
-        </div> */}
         </section>
     </main>
   );
