@@ -4,6 +4,7 @@ import profilePic from "../../public/image/profile.jpeg";
 import Link from "next/link";
 import pIC50 from "../../public/image/graph_pIC50.png"
 import report from "../../public/image/report.png"
+import report_1 from "../../public/image/report_1.png"
 // import { TECollapse, TERipple } from "tw-elements-react";
 
 export default function Projects() {
@@ -20,14 +21,14 @@ export default function Projects() {
                 Analysis of HR Survey Data Employee Turnover Prediction Using Machine Learning (Capstone Project)
                 </h4>
                 <div className="flex flex-row">
-                <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
+                <Image className="m-3" width="200" height="200" src={report_1} alt="linkedin--v2"/>
                 </div>
                 <p className="text-black">
                 The goal of this project was to create an ML classification model and conclude on a best performing machine learning model (Decision Tree, Random Forest, Xgboost) to predict employee turnover left or stay.
                 The final XGBoost model performed with a 94.5% f1 score, 97.1% precision score, and 92.1% recall score, determining what features were most important in segregating employees who left and stayed in the company based on the model, The main contributing factors were tenure duration, high work hours, satisfaction level, and total project contribution.
                     
                 </p>
-                <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.datacamp.com/workspace/w/eafc4a33-5521-4a15-ab9c-57932657922e/edit/EDA%20-%20Drug%20Discovery%20.ipynb"}>
+                <Link className="text-black mt-4 font-mono" target="_blank" href={"https://github.com/SafeKepper/Analysis-of-HR-Survey-Data---Employee-Turnover-Prediction-Using-Machine-Learning"}>
                     Visit the Project..
                 </Link>
 
