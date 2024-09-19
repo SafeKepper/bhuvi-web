@@ -11,7 +11,7 @@ export default function MainPage() {
       <section className="flex items-center justify-left mt-12 text-white">
         <div>
           <h2 className="italic mt-1 mb-6 font-semibold text-black">
-            I&apos;m a aspiring <br /> Data Scientist <br />
+            I&apos;m a aspiring <br /> Bioinformatican <br />
             and a tech enthusiast.
             <br /> with ever growing zeal <br />
             for Computer Science.

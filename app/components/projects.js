@@ -43,7 +43,7 @@ export default function Projects() {
                 <Image className="m-3" width="200" height="200" src={pIC50} alt="linkedin--v2"/>
                 </div>
                 <p className="text-black">
-                    Understanding the vast data of drug interaction is a challenging fleet. It is a daunting but, a rewarding task of identifying potentioal drug candidate for prevalant diseases. 
+                    Understanding the vast data of drug interaction is a challenging fleet. It is a daunting but, a rewarding task of identifying potential drug candidate for prevalant diseases. 
                     
                 </p>
                 <Link className="text-black mt-4 font-mono" target="_blank" href={"https://app.datacamp.com/workspace/w/eafc4a33-5521-4a15-ab9c-57932657922e/edit/EDA%20-%20Drug%20Discovery%20.ipynb"}>
